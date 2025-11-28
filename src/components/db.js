@@ -3,13 +3,13 @@ export const db = [
     id: 1,
     title: "General",
     icon: "bi-gear-fill",
-    children: [
+    childrens: [
       { id: 2, title: "Home", path: "/" },
       { id: 3, title: "About", path: "/about" },
       {
         id: 4,
         title: "Contact",
-        children: [
+        childrens: [
           { id: 5, title: "Facebook", path: "/facebook" },
           { id: 6, title: "Twitter", path: "/twitter" },
           { id: 7, title: "Instagram", path: "/instagram" },
@@ -22,7 +22,7 @@ export const db = [
     id: 9,
     title: "Account",
     icon: "bi-info-circle-fill",
-    children: [
+    childrens: [
       { id: 10, title: "Login", path: "/login" },
       { id: 11, title: "Register", path: "/register" },
       { id: 12, title: "Forgot Password", path: "/forgot-password" },
@@ -33,17 +33,17 @@ export const db = [
     id: 14,
     title: "Profile",
     icon: "bi-person-fill",
-    children: [
+    childrens: [
       { id: 15, title: "Profile", path: "/profile" },
       {
         id: 16,
         title: "Settings",
-        children: [
+        childrens: [
           { id: 17, title: "Account", path: "/settings/account" },
           {
             id: 18,
             title: "Billing",
-            children: [
+            childrens: [
               { id: 19, title: "Payment", path: "/settings/billing/payment" },
               { id: 20, title: "Subscription", path: "/settings/billing/subscription" },
             ],
@@ -58,7 +58,7 @@ export const db = [
     id: 23,
     title: "Advance",
     icon: "bi-view-list",
-    children: [
+    childrens: [
       { id: 24, title: "Search", path: "/search" },
       { id: 25, title: "History", path: "/history" },
     ],
